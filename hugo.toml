@@ -1,0 +1,39 @@
+enableGitInfo = true
+enableRobotsTXT = true
+footnoteReturnLinkContents = "↩"
+paginatePath = ""
+pluralizeListTitles = false
+
+languageCode = "ja"
+defaultContentLanguage = "ja"
+hasCJKLanguage = true
+
+theme = "ran"
+baseURL = "https://m5stack.jp"
+title = "M5StackJP"
+
+[params]
+description = "このサイトは非公式サイトであり、有志によって管理されています"
+#favicon = ""
+logo = "/img/logo.jpg"
+thumbnail = "https://res.cloudinary.com/z2/f_auto,q_auto,co_rgb:333,l_text:Sawarabi%20Gothic_50_bold:M5StackJP,w_500,c_fit/ogp"
+
+[params.author]
+name = "M5StackJP"
+url = "https://m5stack.jp"
+#twitter = ""
+github = "m5stackjp"
+
+[[menus.main]]
+weight = 1
+name = "About"
+url = "/about"
+
+[taxonomies]
+tag = "tags"
+
+[outputs]
+page = ["HTML", "AMP"]
+
+[markup.highlight]
+codeFences = false
